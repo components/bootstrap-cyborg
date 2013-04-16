@@ -1,0 +1,35 @@
+{
+  "name": "components/bootstrap-cyborg",
+  "description": "Shim repository for the Bootstrap Bootswatch Cyborg theme.",
+  "type": "component",
+  "keywords": [
+    "bootstrap",
+    "css"
+  ],
+  "homepage": "http://bootswatch.com/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Thomas Park",
+      "homepage": "http://github.com/thomaspark"
+    }
+  ],
+  "require": {
+    "components/bootstrap": "*"
+  },
+  "extra": {
+    "component": {
+      "styles": [
+        "css/bootstrap.css",
+        "css/bootstrap-responsive.css"
+      ],
+      "files": [
+        "img/glyphicons-halflings.png",
+        "img/glyphicons-halflings-white.png"
+      ],
+      "shim": {
+        "deps": ["bootstrap"]
+      }
+    }
+  }
+}
